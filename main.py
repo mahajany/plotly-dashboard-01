@@ -133,4 +133,5 @@ def update_chart_data(selected_metal, start_date, end_date):
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 8050))  # Use PORT if available, fallback to 8050 locally
+    print(f"..application will run on {port}")
     app.run(host='0.0.0.0', port=port, debug=True)
