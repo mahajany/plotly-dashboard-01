@@ -8,6 +8,7 @@ dependencies = [
     "dash>=4.0.0",
     "dash-core-components>=2.0.0",
     "dash-html-components>=2.0.0",
+    "gunicorn>=25.1.0",
     "pandas>=2.3.3",
     "plotly-express>=0.4.1",
 ]
